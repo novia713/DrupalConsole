@@ -148,6 +148,9 @@ class UninstallCommand extends Command
                     implode(', ', $moduleList)
                 )
             );
+
+            $io->info($this->trans('commands.module.uninstall.messages.reminder'));
+
         } catch (\Exception $e) {
             $io->error($e->getMessage());
 

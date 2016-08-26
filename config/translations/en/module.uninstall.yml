@@ -13,3 +13,4 @@ messages:
     success: 'The following module(s) were uninstalled successfully: "%s"'
     missing: 'Unable to uninstall modules "%s" due to missing modules "%s"'
     composer-success: 'The folowing module(s) were removed from Composer: "%s"'
+    reminder: 'Now you can execute the following commands to complete the uninstall process: \r\n composer remove vendor/package \r\n drupal upe all'
